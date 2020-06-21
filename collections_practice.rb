@@ -19,11 +19,11 @@ def reverse_array (array)
  array.reverse
 end 
 
-def kesha_maker(array) 
-  kesha_array = []
-    array.each {|word| word.len
-  kesha_array
-end
+# def kesha_maker(array) 
+#   kesha_array = []
+#     array.each {|word| word.len
+#   kesha_array
+# end
 
 def find_a (array)
  array.select {|string| string.start_with?("a")}
@@ -33,9 +33,9 @@ def sum_array(array)
  array.inject {|sum, number| sum+number}
 end 
 
-# def add_s (array) 
-#   array.each_with_index {|element,index| index == 1
-#   nil 
-# else
-#     element << "s"
-# end 
+def add_s (array) 
+  array.each_with_index {|element,index| index == 1
+  nil 
+else
+    element << "s"
+end 
