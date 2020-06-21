@@ -1,12 +1,12 @@
-def sort_array_asc(array)
+def sort_array_asc (array)
  array.sort {|a,b| a <=> b}
 end
 
-def sort_array_desc(array)
+def sort_array_desc (array)
   array.sort {|a,b| b <=> a}
 end
 
-def sort_array_char_count(array)
+def sort_array_char_count (array)
    array.sort {|a,b| a.length <=> b.length}
 end
 
@@ -14,7 +14,7 @@ end
 #   array.sort {|a,b| b <=> a}
 # end
 
-def reverse_array(array)
+def reverse_array (array)
  array.reverse
 end 
 
