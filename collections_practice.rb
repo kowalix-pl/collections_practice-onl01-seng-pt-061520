@@ -29,11 +29,10 @@ def find_a (array)
  array.select {|string| string.start_with?("a")}
 end 
 
-def sum_array(array)
+def sum_array (array)
  array.inject {|sum, number| sum+number}
 end 
 
 def add_s (array) 
-  array.each_with_index {|element,index| index == 1  element << "s"
-binding.pry
+  array.each_with_index {|element,index| element << "s" if index != 1}
 end 
