@@ -21,7 +21,7 @@ end
 
 def kesha_maker(array) 
   kesha_array = []
-    array.each {|word| kesha_array << word[2] = "$"}
+  kesha_array << array.each {|word| word[2] = "$"}
   kesha_array
   binding.pry
 end
