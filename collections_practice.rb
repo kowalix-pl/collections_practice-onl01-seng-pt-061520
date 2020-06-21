@@ -21,7 +21,7 @@ end
 
 def kesha_maker(array) 
   kesha_array = []
-    array.each {|word| word.length}
+    array.each {|word| word.leng}
   kesha_array
 end
 
