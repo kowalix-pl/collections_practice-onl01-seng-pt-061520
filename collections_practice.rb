@@ -1,3 +1,4 @@
+require pry''
 def sort_array_asc (array)
  array.sort {|a,b| a <=> b}
 end
@@ -12,6 +13,7 @@ end
 
 # def swap_elements(array)
 #   array.sort {|a,b| b <=> a}
+binding.pry
 # end
 
 def reverse_array (array)
