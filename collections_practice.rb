@@ -33,7 +33,7 @@ def sum_array(array)
  array.inject {|sum, number| sum+number}
 end 
 
-def add_s (array) 
-  array.each_with_index {|element,index| index == 1  element << "s"
-binding.pry
-end 
+# def add_s (array) 
+#   array.each_with_index {|element,index| index == 1  element << "s"
+# binding.pry
+# end 
