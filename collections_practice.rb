@@ -18,8 +18,8 @@ def reverse_array(array)
  array.reverse
 end 
 
-def kesha_maker(array) 
- kesha_array = []
- kesha_array << array.each {|word| 
- kesha_array
-end
+# def kesha_maker(array) 
+# kesha_array = []
+# kesha_array << array.each {|word| 
+# kesha_array
+# end
