@@ -35,3 +35,4 @@ end
 def add_s (array) 
   array.each_with_index {|element,index| index != 1 element << "s"}
 end 
+end
