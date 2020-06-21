@@ -23,3 +23,7 @@ end
 # kesha_array << array.each {|word| 
 # kesha_array
 # end
+
+def find_a (array)
+ array.select {|string| string.start_with?("a")}
+end 
