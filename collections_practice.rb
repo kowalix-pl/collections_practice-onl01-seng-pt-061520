@@ -34,8 +34,6 @@ def sum_array(array)
 end 
 
 def add_s (array) 
-  array.each_with_index {|element,index| index == 1
-  nil 
-else
-    element << "s"
+  array.each_with_index {|element,index| index == 1  element << "s"
+binding.pry
 end 
