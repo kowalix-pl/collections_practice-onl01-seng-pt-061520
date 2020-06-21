@@ -22,7 +22,7 @@ end
 def kesha_maker(array) 
  
   array.each {|word| word[2] = "$"}
-
+binding.pry
 end
 
 def find_a (array)
